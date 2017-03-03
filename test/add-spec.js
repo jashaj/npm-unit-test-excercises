@@ -1,5 +1,6 @@
+"use strict";
 const assert = require('assert');
-describe('module', function () {
+describe('module', () => {
   let module;
   beforeEach(() => {
     module = require('../index');
@@ -11,5 +12,8 @@ describe('module', function () {
     it('should add numbers', () => {
       assert.equal(3, module.add(1, 2));
     });
+    it('concats strings', () => {
+      assert.equal('foobar', module.add('foo', 'bar'));
+    })
   });
 });
