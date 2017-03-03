@@ -1,0 +1,11 @@
+{
+  "name": "npmtest",
+  "version": "1.0.0",
+  "description": "npm to learn how to unit test ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Jasha Joachimsthal",
+  "license": "Apache-2.0"
+}
