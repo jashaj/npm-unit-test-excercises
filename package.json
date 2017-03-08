@@ -10,6 +10,7 @@
   "author": "Jasha Joachimsthal",
   "license": "Apache-2.0",
   "devDependencies": {
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "rewire": "^2.5.2"
   }
 }
