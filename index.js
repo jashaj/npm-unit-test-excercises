@@ -7,7 +7,15 @@ function calcBmi(weight, height) {
 module.exports = {
   "add": (a, b) => a + b,
   "bmi": (weight, height) => {
-    let bmi = calcBmi(weight, height).toFixed(1);
-    return `${weight} / (${height}^2) = ${bmi}`;
+    if (isNaN(Number(weight))) {
+      return `Invalid input for weight: ${weight}`;
+    }
+
+    if (isNaN(Number(height))) {
+      return `Invalid input for height: ${height}`;
+    }
+
+    const bmi = calcBmi(weight, height).toFixed(1);
+    return `${weight} / (${height.toFixed(2)}^2) = ${bmi}`;
   }
 };

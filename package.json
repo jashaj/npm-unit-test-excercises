@@ -4,7 +4,7 @@
   "description": "npm to learn how to unit test ",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec test/*-spec.js",
+    "test": "mocha -R spec test/*_spec.js",
     "watch": "npm test -- --watch"
   },
   "author": "Jasha Joachimsthal",
