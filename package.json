@@ -14,8 +14,8 @@
     "url": "git@github.com:jashaj/npm-unit-test-excercises.git"
   },
   "devDependencies": {
-    "mocha": "^3.2.0",
-    "rewire": "^2.5.2"
+    "mocha": "^6.2.2",
+    "rewire": "^4.0.1"
   },
   "homepage": "https://github.com/jashaj/npm-unit-test-excercises",
   "keywords": [
